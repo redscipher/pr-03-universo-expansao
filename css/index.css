@@ -1,0 +1,109 @@
+/* resete auto bootstrap
+elementos: 1 */
+html{
+    /* corta oque exceder os limites */
+    overflow: hidden;
+}
+
+footer{
+    background-color: #02182b9d;
+    opacity: 1;
+}
+
+h2{
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* elementos.classes: 1 */
+header.card-header
+,.tab-pane .card
+,.modal-content{
+    background-image: linear-gradient(to right, #494e61 19%, #444960 30%, #434b61 41%, #3c4569 51%, #2f3a66 59%, #101e65 68%, #071664 77%, #00126b 85%, #021055 93%, #000c47 100%);
+}
+
+article.card{
+    overflow: auto;
+}
+
+/* ids: 1 */
+#idFundo{
+    width: 100vw;
+    height: 100vh;
+}
+
+#idImagensFundo{
+    /* opacidade */
+    opacity: 0.8;
+}
+
+#idCarrCartao{
+    width: 100%;
+    height: 50vh;
+}
+
+#idCorpo{
+    /* reseta margens do cartao principal */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* tamanho */
+    width: 100vw;
+    height: 90vh;
+    /* bordas */
+    border: 2px solid rgba(97, 97, 97, 0.356);
+     /* adiciona rolagem se necessario */
+     overflow: auto;
+}
+
+#idAgencias .carousel-inner{
+    width: 100%;
+    height: 100%;
+}
+
+/* classes: 1 */
+.cls-texto-em-cores{
+    color: #ede6db;
+}
+
+.cls-texto-escuro{
+    color: #080e75;
+    font-family: "Anton SC", sans-serif;
+}
+
+.links-sociais li{
+    list-style: none;
+    display: inline;
+}
+
+/* estados */
+.card-link:hover{
+    color: rgb(199, 100, 2);
+}
+
+/* classes: 2 */
+.navbar-nav .nav-link{
+    color: #ede6db;
+}
+
+/* classes: 3 */
+.navbar-nav .nav-link.active{
+    background-color: #021b2f;
+    color: #ede6db;
+}
+
+/* classes elementos.classes: 1 */
+.carousel-inner img.card-img{
+    opacity: 0.7;
+}
+
+.links-sociais a{
+    text-decoration: none;
+}
+
+/* == responsividades
+smartphone */
+@media screen and (max-width: 767px){
+    
+}
